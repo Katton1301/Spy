@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locations>
+    <Location name="Казино" description="Лас Вегас" use="true" >
+        <Role name="Крупье" weight="3" only_one="false" />
+        <Role name="Охраник" weight="3" only_one="false" />
+        <Role name="Математик(пытаешься обмануть систему)" weight="3" only_one="false" />
+        <Role name="Уже 5 часов сидишь в слотах" weight="3" only_one="false" />
+        <Role name="Проиграл все(пытаешься продать свои часы)" weight="3" only_one="false" />
+        <Role name="Олигарх(проиграл мелочь - миллион долларов)" weight="3" only_one="false" />
+        <Role name="Опытный(Изучил все ходы в блэкджеке и поднял 10 долларов)" weight="2" only_one="false" />
+        <Role name="Жена(ищешь своего горе мужа)" weight="2" only_one="false" />
+        <Role name="Узнал про стратегию Мартингейла и пришел играть в рулетку" weight="2" only_one="false" />
+        <Role name="Везунчик(сорвал джекпот)" weight="1" only_one="false" />
+    </Location>
+    <Location name="Пирамида" description="Научная экспедиция отправилась исследовать пирамиду, но что-то пошло не так" use="true" >
+        <Role name="Главный в экспедиции" weight="5" only_one="true" />
+        <Role name="Мумия" weight="3" only_one="true" />
+        <Role name="Оживший скелет" weight="3" only_one="false" />
+        <Role name="Ученный историк" weight="3" only_one="false" />
+        <Role name="Археолог" weight="3" only_one="false" />
+        <Role name="Участник экспедиции (потянул за кубок и проволился в яму)" weight="3" only_one="false" />
+        <Role name="Участник экспедиции (наступил на нажимную плиту и получил стрелу в живот)" weight="3" only_one="false" />
+        <Role name="Участник экспедиции (упал в бассейн со скарабеями)" weight="2" only_one="false" />
+        <Role name="Расхититель грабниц" weight="2" only_one="false" />
+        <Role name="Скарабей" weight="1" only_one="false" />
+    </Location>
+</Locations>

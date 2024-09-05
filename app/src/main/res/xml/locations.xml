@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Locations>
+    <Location name="Космический корабль" description="Вы летите на МКС с миссией по исследованию зачатия плода в невесомости" use="true">
+        <Role name="Пилот" weight="5" only_one="false" />
+        <Role name="Медик" weight="5" only_one="false" />
+        <Role name="Инженер" weight="5" only_one="false" />
+        <Role name="Командир" weight="5" only_one="true" />
+        <Role name="Инженер(чинишь корпус снаружи)" weight="3" only_one="false" />
+        <Role name="Физик исследователь" weight="3" only_one="false" />
+        <Role name="Подопытная крыса" weight="3" only_one="false" />
+        <Role name="Гуманоид(пролетаешь мимо)" weight="2" only_one="false" />
+        <Role name="Бомж(залез в богажный отсек погреться и улетел)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Марс" description="Вы прилетели колонизировать планету" use="true">
+        <Role name="Пилот" weight="5" only_one="false" />
+        <Role name="Командир экспидиции" weight="5" only_one="true" />
+        <Role name="Местный житель" weight="5" only_one="false" />
+        <Role name="Медик" weight="5" only_one="false" />
+        <Role name="Инженер" weight="5" only_one="false" />
+        <Role name="Физик исследователь" weight="3" only_one="false" />
+        <Role name="Илон Маск" weight="2" only_one="true" />
+        <Role name="R2D2" weight="2" only_one="false" />
+    </Location>
+    <Location name="Бункер" description="Вы спаслись от ядерной войны уничтожившей весь мир" use="true">
+        <Role name="Президент" weight="5" only_one="true" />
+        <Role name="Телохронитель президента" weight="5" only_one="false" />
+        <Role name="Багач(купил место)" weight="5" only_one="false" />
+        <Role name="Инженер(строил этот бункер)" weight="5" only_one="false" />
+        <Role name="Военный" weight="5" only_one="false" />
+        <Role name="Бомж(жил здесь и раньше)" weight="3" only_one="false" />
+        <Role name="Знаменитость(попал по блату)" weight="3" only_one="false" />
+        <Role name="Крыса" weight="2" only_one="false" />
+        <Role name="Настольщик(убедил всех, что он им нужен)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Кинки Пати (БДСМ вечеринка)" description="Все в масках животных собрались разнообразить свою скучную жизнь" use="true">
+        <Role name="Маска Льва (Организатор этой вечеринки)" weight="5" only_one="true" />
+        <Role name="Маска Пантеры (Бывалый участник, испробовал все)" weight="5" only_one="false" />
+        <Role name="Маска Собаки (Первый раз)" weight="5" only_one="false" />
+        <Role name="Маска Кошки (Женщина в возрасте)" weight="5" only_one="false" />
+        <Role name="Маска Кабана(Депутат)" weight="5" only_one="false" />
+        <Role name="Маска Быка (Мужик с комплексами)" weight="3" only_one="false" />
+        <Role name="Маска Оленя (Куколд)" weight="3" only_one="false" />
+        <Role name="Маска Медведя (Охраник)" weight="3" only_one="false" />
+        <Role name="Маска Тигра (Шел на утренник к дочке, но кажется не туда попал)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Сон" description="Вы персонажи в голове маленькой девочки" use="true">
+        <Role name="Единорог" weight="1" only_one="false" />
+        <Role name="Отец с ремнями вместо рук" weight="1" only_one="false" />
+        <Role name="Кукла барби с колесами вместо ног" weight="1" only_one="false" />
+        <Role name="Балерина с автоматом" weight="1" only_one="false" />
+        <Role name="Фея строящая замок из зубов" weight="1" only_one="false" />
+        <Role name="Скейтбордист, спускающийся по радуге" weight="1" only_one="false" />
+        <Role name="Плачущий пупс, образующий речку из слез" weight="1" only_one="false" />
+        <Role name="Плюшевый мишка, летающий по небу как пустой пакет" weight="1" only_one="false" />
+        <Role name="Поющий джаз, тортик" weight="1" only_one="false" />
+        <Role name="Щенок, играющий собачий вальс на пианино" weight="1" only_one="false" />
+        <Role name="Самолет, порхающий крыльями как птица" weight="1" only_one="false" />
+    </Location>
+    <Location name="Цирк" description="Тигр откусил руку у дресировщика" use="true">
+        <Role name="Дресировщик без руки" weight="5" only_one="true" />
+        <Role name="Второй дресировщик" weight="5" only_one="true" />
+        <Role name="Тигр" weight="5" only_one="true" />
+        <Role name="Плачущая девочка" weight="5" only_one="false" />
+        <Role name="Смеющийся пацан" weight="5" only_one="false" />
+        <Role name="Журналист, радующийся будущему репортажу" weight="3" only_one="false" />
+        <Role name="Только проснулся и не понимает что произошло" weight="3" only_one="false" />
+        <Role name="Клоун (Пытается отвлечь смехом от ужасной сцены)" weight="2" only_one="false" />
+        <Role name="Странный зритель, хлопающий как ни в чем не бывало" weight="2" only_one="false" />
+    </Location>
+    <Location name="Пещера" description="Доисторическая пещера первобытных людей" use="true">
+        <Role name="Путешественник во времени (изучаешь пещерных людей)" weight="5" only_one="true" />
+        <Role name="Мужчина, принес шкуру и мясо мамонта" weight="5" only_one="false" />
+        <Role name="Женщина, поддерживаешь костер" weight="5" only_one="true" />
+        <Role name="Ребенок" weight="5" only_one="false" />
+        <Role name="Волк, пришел на запах мяса" weight="5" only_one="false" />
+        <Role name="Дед(30 лет)" weight="3" only_one="false" />
+        <Role name="Домашнее животное(огромный таракан)" weight="3" only_one="false" />
+    </Location>
+    <Location name="Собрание Масонов" description="Супер секретное собрание людей, управлящих миром" use="true">
+        <Role name="Президент США" weight="5" only_one="true" />
+        <Role name="Аристократ, который встпуил в Масоны, потому-что это модно" weight="5" only_one="false" />
+        <Role name="Шпион(помогай реальному шпиону, но не спались)" weight="5" only_one="true" />
+        <Role name="Масон, подозривающий всех в предательстве" weight="5" only_one="false" />
+        <Role name="Первый раз(Привел друг и сказал молчать)" weight="3" only_one="false" />
+        <Role name="Очень старый Масон, застал времена когда Масоны были просто кучкой ремесленников" weight="3" only_one="false" />
+        <Role name="Известная личность, которая боится что его узнают (говори не своим голосом)" weight="3" only_one="false" />
+        <Role name="Масон, пришел предложить устроить переворот в Османской империи" weight="3" only_one="false" />
+    </Location>
+    <Location name="Съемочная площадка" description="Вы снимаете мелодраму" use="true">
+        <Role name="Главный актер" weight="5" only_one="true" />
+        <Role name="Главная актриса" weight="5" only_one="true" />
+        <Role name="Режиссер" weight="5" only_one="true" />
+        <Role name="Оператор" weight="5" only_one="false" />
+        <Role name="Гример" weight="5" only_one="false" />
+        <Role name="Актер второго плана" weight="3" only_one="false" />
+        <Role name="Звуковик" weight="3" only_one="false" />
+        <Role name="Продюссер" weight="3" only_one="false" />
+        <Role name="Сценарист" weight="3" only_one="false" />
+    </Location>
+    <Location name="Поле боя" description="Средневековое сражение" use="true">
+        <Role name="Полководец(стоишь на холме и смотришь)" weight="5" only_one="true" />
+        <Role name="Всадник(рубишь всех налево и направо)" weight="5" only_one="false" />
+        <Role name="Медик(тащишь полуживого рыцаря)" weight="5" only_one="false" />
+        <Role name="Мечник" weight="5" only_one="false" />
+        <Role name="Лучник" weight="5" only_one="false" />
+        <Role name="Оруженосец(потерял своего рыцаря)" weight="3" only_one="false" />
+        <Role name="Полумертвый(лежишь в грязи и смотришь)" weight="3" only_one="false" />
+        <Role name="Дезертир(бежишь с поля боя)" weight="3" only_one="false" />
+        <Role name="Конь рыцаря" weight="3" only_one="false" />
+    </Location>
+    <Location name="Шахматная доска" description="Жизнь это шахматы, а вы в ней фигурки на доске" use="true">
+        <Role name="Белый король" weight="10" only_one="true" />
+        <Role name="Черный король" weight="10" only_one="true" />
+        <Role name="Белый ферзь" weight="1" only_one="true" />
+        <Role name="Черный ферзь" weight="1" only_one="true" />
+        <Role name="Черная Ладья" weight="2" only_one="false" />
+        <Role name="Белая Ладья" weight="2" only_one="false" />
+        <Role name="Черный Слон" weight="2" only_one="false" />
+        <Role name="Белый Слон" weight="2" only_one="false" />
+        <Role name="Черный Конь" weight="2" only_one="false" />
+        <Role name="Белый Конь" weight="2" only_one="false" />
+        <Role name="Черная Пешка" weight="5" only_one="false" />
+        <Role name="Белая Пешка" weight="5" only_one="false" />
+    </Location>
+    <Location name="Футбольный стадион" description="Все пришли на матч" use="true">
+        <Role name="Болельщик(домашней команды)" weight="5" only_one="false" />
+        <Role name="Болельщик(команды в гостях)" weight="4" only_one="false" />
+        <Role name="Футболист(домашней команды)" weight="3" only_one="false" />
+        <Role name="Футболист(команды в гостях)" weight="3" only_one="false" />
+        <Role name="Судья" weight="2" only_one="true" />
+        <Role name="Болбой" weight="2" only_one="false" />
+        <Role name="Болельщик(выбежал на поле)" weight="2" only_one="false" />
+        <Role name="Охраник" weight="2" only_one="false" />
+        <Role name="Комментатор" weight="2" only_one="false" />
+    </Location>
+    <Location name="Набережная у разводных мостов" description="Смотрите на развод мостов" use="true">
+        <Role name="Снимаешь видео" weight="5" only_one="false" />
+        <Role name="Смотришь с яхты" weight="5" only_one="false" />
+        <Role name="Турист(Первый раз видишь развод)" weight="3" only_one="false" />
+        <Role name="Водитель(не успел на ту сторону и материшься)" weight="3" only_one="false" />
+        <Role name="Сидишь на крыше" weight="3" only_one="false" />
+        <Role name="Делаешь предложение возлюбленной" weight="2" only_one="true" />
+        <Role name="Тебе сделали предложение(думаешь как бы отказаться)" weight="2" only_one="true" />
+        <Role name="Просто проходил мимо" weight="2" only_one="false" />
+        <Role name="Водитель яхты" weight="2" only_one="false" />
+    </Location>
+    <Location name="Видеоконференция" description="Ваша компания собралась на очередном онлайн митинге" use="true">
+        <Role name="Глава компании" weight="5" only_one="true" />
+        <Role name="Выступаешь с отчетом" weight="5" only_one="true" />
+        <Role name="Смотришь аниме на втором экране" weight="5" only_one="false" />
+        <Role name="Параллельно смотришь мемчики" weight="5" only_one="false" />
+        <Role name="Подставил картинку себя на вебку, а сам спишь" weight="3" only_one="false" />
+        <Role name="Готовишься выступать с докладом" weight="3" only_one="false" />
+        <Role name="Играешь в стрелялку на втором экране" weight="3" only_one="false" />
+        <Role name="В голове обезьянка с тарелками" weight="3" only_one="false" />
+        <Role name="Работник месяца(слушаешь внимательно)" weight="2" only_one="true" />
+    </Location>
+    <Location name="Свадьба" description="А эта свадьба свадьба свадьба пела и плясала..." use="true">
+        <Role name="Жених" weight="5" only_one="true" />
+        <Role name="Невеста" weight="5" only_one="true" />
+        <Role name="Напился и спишь в салате" weight="5" only_one="false" />
+        <Role name="Тамада" weight="5" only_one="true" />
+        <Role name="Дядя Вадя(пылесосишь всю еду в округе)" weight="3" only_one="false" />
+        <Role name="Тетя Мотя(учавствуешь во всех конкурсах)" weight="3" only_one="false" />
+        <Role name="Маленькая девочка(бегаешь у всех под ногами)" weight="3" only_one="false" />
+        <Role name="Маленький мальчик(лизнул водки и изображаешь пьяного)" weight="3" only_one="false" />
+        <Role name="Свидетель" weight="3" only_one="false" />
+        <Role name="Официант" weight="3" only_one="false" />
+        <Role name="Левый тип(пробрался на свадьбу и кушаешь на халяву)" weight="2" only_one="false" />
+        <Role name="Мать жениха" weight="2" only_one="true" />
+    </Location>
+    <Location name="Инквизиция(казнь)" description="Вы собрались на казнь ведьмы" use="true">
+        <Role name="Ведьма" weight="5" only_one="true" />
+        <Role name="Главный инквизитор" weight="5" only_one="true" />
+        <Role name="Зритель" weight="5" only_one="false" />
+        <Role name="Инквизитор" weight="4" only_one="false" />
+        <Role name="Купец" weight="3" only_one="false" />
+        <Role name="Еретик" weight="2" only_one="false" />
+        <Role name="Крыса" weight="2" only_one="false" />
+    </Location>
+    <Location name="Текущее место" description="То место, где вы сейчас находитесь" use="true">
+        <Role name="Ты это ты" weight="1" only_one="false" />
+    </Location>
+    <Location name="Поле Чудес" description="Ну что крутите барабан" use="true">
+        <Role name="Якубович" weight="5" only_one="true" />
+        <Role name="Зритель" weight="5" only_one="false" />
+        <Role name="Девушка, открывающая буквы" weight="3" only_one="true" />
+        <Role name="Девочка(приготовила танец)" weight="3" only_one="true" />
+        <Role name="Бабушка(принесла соленья)" weight="3" only_one="true" />
+        <Role name="Мальчик(пришел со стихом про заяца)" weight="3" only_one="true" />
+        <Role name="Мужик(выбрал приз и получил банан)" weight="3" only_one="true" />
+        <Role name="Мужик из деревни(принес вяленую рыбу)" weight="3" only_one="true" />
+        <Role name="Женщина(пришла за победой, нужен холодильник)" weight="3" only_one="true" />
+    </Location>
+    <Location name="Маршрутка" description="Переполненная маршрутка в час пик" use="true">
+        <Role name="Водитель" weight="5" only_one="true" />
+        <Role name="Бабка(закрывает форточку потому-что дует)" weight="3" only_one="true" />
+        <Role name="Мужик(окрывает форточку потому-что душно)" weight="3" only_one="true" />
+        <Role name="Мужик(притворился спящим чтобы не уступать место)" weight="3" only_one="false" />
+        <Role name="Женщина(стоишь и материшь спящего мужика)" weight="3" only_one="false" />
+        <Role name="Толстая девушка, заняла два места" weight="3" only_one="false" />
+        <Role name="Пассажир спереди(сидишь кайфуешь)" weight="3" only_one="false" />
+        <Role name="Девочка(Спросила у мамы, если все попросят бога...)" weight="2" only_one="true" />
+        <Role name="Девушка(Встретила парня в маршрутке, едите и молчите)" weight="2" only_one="true" />
+    </Location>
+    <Location name="Тюрьма" description="Ну что рассказывай за что сидишь?" use="true">
+        <Role name="Начальник охраны" weight="5" only_one="true" />
+        <Role name="Охраник" weight="3" only_one="false" />
+        <Role name="Одноглазый" weight="3" only_one="false" />
+        <Role name="Новенький(думаешь какой стул выбрать)" weight="3" only_one="false" />
+        <Role name="Шестерка" weight="3" only_one="false" />
+        <Role name="Блатной" weight="2" only_one="false" />
+        <Role name="Местный татумастер" weight="2" only_one="false" />
+        <Role name="Уважаемый(сделаешь все что угодно из мякиша)" weight="2" only_one="false" />
+        <Role name="Бизнесмен(продаешь все за сигареты)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Психиотрическая больница" description="В больнице потеряли больного" use="true">
+        <Role name="Глав. врач" weight="5" only_one="true" />
+        <Role name="Крепкий мед. брат" weight="5" only_one="false" />
+        <Role name="Врач" weight="5" only_one="false" />
+        <Role name="Психбольной(решил поиграть в прятки и спрятался в холодильнике)" weight="5" only_one="true" />
+        <Role name="Психбольной(наркоман)" weight="5" only_one="false" />
+        <Role name="Психбольной(насмотрелся рен тв)" weight="5" only_one="false" />
+        <Role name="Психбольной(спился до белочки)" weight="5" only_one="false" />
+        <Role name="Здоровый(нечаяно задушил жену и теперь притворяешься психом)" weight="4" only_one="false" />
+        <Role name="Психбольной(работал тут и постепенно сам сошел с ума)" weight="3" only_one="false" />
+        <Role name="Буйный психбольной в смирительной рубашке" weight="3" only_one="false" />
+    </Location>
+    <Location name="Фильм Ужасов" description="Вы попали в типичный фильм ужасов" use="true">
+        <Role name="Маньяк" weight="5" only_one="true" />
+        <Role name="Черный парень(умрешь первым)" weight="5" only_one="true" />
+        <Role name="Главная героиня" weight="3" only_one="true" />
+        <Role name="Тупой качок(зачем-то пошел на шум в темный подвал)" weight="3" only_one="false" />
+        <Role name="Девушка(почувствовала неладное и свалила в самом начале)" weight="3" only_one="false" />
+        <Role name="Второстепенный персонаж(никто не помнит твое имя, но умрешь красиво)" weight="3" only_one="false" />
+        <Role name="Девушка с жутким криком(нужна для атмосферы)" weight="3" only_one="false" />
+        <Role name="Бесючая девушка(все будут рады когда ты умрешь)" weight="2" only_one="false" />
+        <Role name="Хороший парень(умрешь спасая главную героиню)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Самолет" description="У самолета отказали двигатели и вы стремительно падаете вниз" use="true">
+        <Role name="Первый пилот(первым выпрагнул с парашютом)" weight="5" only_one="true" />
+        <Role name="Второй пилот(говоришь в микрофон что все под контолем(нет))" weight="5" only_one="true" />
+        <Role name="Стюардесса" weight="4" only_one="false" />
+        <Role name="Отстегнулся и безконтрольно летаешь по салону" weight="3" only_one="false" />
+        <Role name="Набожная женщина(крестишься со скоростью света)" weight="3" only_one="false" />
+        <Role name="Аэрофоб(первый раз переборол страх и полетел)" weight="3" only_one="false" />
+        <Role name="Мужик(перешел на 4-ех этажный мат)" weight="3" only_one="false" />
+        <Role name="Девушка(уже сорвала голос и хрипишь)" weight="3" only_one="false" />
+        <Role name="Чайка(пролетаешь мимо)" weight="2" only_one="false" />
+        <Role name="Собака в багажном отделении" weight="2" only_one="false" />
+    </Location>
+    <Location name="Рок концерт" description="Рок группа начала играть свой главный хит" use="true">
+        <Role name="Солист" weight="5" only_one="true" />
+        <Role name="Клавишник" weight="5" only_one="true" />
+        <Role name="Барабанщик" weight="5" only_one="true" />
+        <Role name="Гитарист" weight="5" only_one="true" />
+        <Role name="Пришел послэмиться" weight="3" only_one="false" />
+        <Role name="Главная фанатка(знаешь все песни наизусть)" weight="3" only_one="false" />
+        <Role name="Первый раз" weight="3" only_one="false" />
+        <Role name="Попиваешь в вип ложе" weight="2" only_one="false" />
+        <Role name="В первых рядах у колонки(оглох на одно ухо)" weight="2" only_one="false" />
+        <Role name="Хейтер" weight="2" only_one="false" />
+    </Location>
+    <Location name="Хогвартс" description="Тебе наконец пришло письмо, поздравляю!" use="true">
+        <Role name="Гарри" weight="5" only_one="true" />
+        <Role name="Рон" weight="5" only_one="true" />
+        <Role name="Гермиона" weight="5" only_one="true" />
+        <Role name="Хагрид" weight="3" only_one="true" />
+        <Role name="Дамблдор" weight="3" only_one="true" />
+        <Role name="Малфой" weight="3" only_one="true" />
+        <Role name="Живая картина" weight="3" only_one="false" />
+        <Role name="Привидение" weight="3" only_one="false" />
+        <Role name="Учитель" weight="3" only_one="false" />
+        <Role name="Ученик Слизерина" weight="3" only_one="false" />
+        <Role name="Ученик Гриффиндора" weight="3" only_one="false" />
+        <Role name="Ученик Коктеврана" weight="3" only_one="false" />
+        <Role name="Ученик Пуфендуя" weight="3" only_one="false" />
+        <Role name="Добби" weight="3" only_one="true" />
+        <Role name="Кароста" weight="3" only_one="true" />
+        <Role name="Волан-де-морт" weight="3" only_one="true" />
+        <Role name="Распределительная шляпа" weight="2" only_one="true" />
+    </Location>
+    <Location name="Красная площадь" description="Наши дни" use="true">
+        <Role name="Ленин" weight="5" only_one="true" />
+        <Role name="Двойник Ленина" weight="5" only_one="true" />
+        <Role name="Турист" weight="5" only_one="false" />
+        <Role name="Полицейский" weight="5" only_one="false" />
+        <Role name="Росгвардеец" weight="5" only_one="false" />
+        <Role name="Модник" weight="2" only_one="false" />
+        <Role name="Местный(бежишь по делам)" weight="2" only_one="false" />
+        <Role name="Тиктокер" weight="2" only_one="false" />
+        <Role name="Демонстрант(уже скрутили)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Карнавал" description="Красочный бразильский карнавал" use="true">
+        <Role name="Танцорша" weight="5" only_one="false" />
+        <Role name="Местный" weight="5" only_one="false" />
+        <Role name="Турист" weight="5" only_one="false" />
+        <Role name="Сотрудник службы безопасности" weight="3" only_one="false" />
+        <Role name="Водитель карнавальной машины" weight="3" only_one="false" />
+        <Role name="Инженер(управляешь карнавальной конструкцией)" weight="3" only_one="false" />
+        <Role name="Журналист" weight="2" only_one="false" />
+        <Role name="Попугай" weight="2" only_one="false" />
+        <Role name="Оператор" weight="2" only_one="false" />
+    </Location>
+    <Location name="Зоопарк" description="Обезьянка сбежала с вольера" use="true">
+        <Role name="Сбежавшая обезьянка" weight="5" only_one="true" />
+        <Role name="Работник зоопарка (пытаешься поймать обезьянку)" weight="4" only_one="false" />
+        <Role name="Посетитель зоопарка" weight="4" only_one="false" />
+        <Role name="Горила" weight="4" only_one="false" />
+        <Role name="Лев" weight="3" only_one="false" />
+        <Role name="Тюлень" weight="3" only_one="false" />
+        <Role name="Белый медведь" weight="2" only_one="false" />
+        <Role name="Продавщица карамельных яблок" weight="2" only_one="false" />
+        <Role name="Козел" weight="2" only_one="false" />
+    </Location>
+    <Location name="Комик кон" description="Съезд любителей фильмов, игр и комиксов. Все одеты в костюмы разных персонажей" use="true">
+        <Role name="Супермен" weight="1" only_one="false" />
+        <Role name="Бэтмен" weight="1" only_one="false" />
+        <Role name="Железный человек" weight="1" only_one="false" />
+        <Role name="Халк" weight="1" only_one="false" />
+        <Role name="Человек паук" weight="1" only_one="false" />
+        <Role name="Тян из популярного аниме" weight="1" only_one="false" />
+        <Role name="Герой из доты" weight="1" only_one="false" />
+        <Role name="Организатор комик кона" weight="1" only_one="false" />
+        <Role name="Какой-то Маг из РПГ игры" weight="1" only_one="false" />
+        <Role name="Персонаж из Игры Престолов" weight="1" only_one="false" />
+        <Role name="Персонаж из Властелина колец" weight="1" only_one="false" />
+    </Location>
+    <Location name="Парк аттракционов" description="Лето, воскресенье, жара, очереди" use="true">
+        <Role name="Мальчик, стоишь в очереди на американские горки" weight="5" only_one="false" />
+        <Role name="Кассирша" weight="3" only_one="false" />
+        <Role name="Работник парка" weight="3" only_one="false" />
+        <Role name="Женщина на катамаране" weight="3" only_one="false" />
+        <Role name="Девочка со сладкой ватой" weight="3" only_one="false" />
+        <Role name="Девочка, катаешься на пони" weight="3" only_one="false" />
+        <Role name="Мальчик, катаешься на машинках" weight="3" only_one="false" />
+        <Role name="Мальчик с VIP браслетом (идешь на американские горки в 10 раз)" weight="2" only_one="false" />
+        <Role name="Мальчик (переел и эффектно показал 'радугу' на хип хопе)" weight="2" only_one="false" />
+        <Role name="Мальчик, просто смотришь (нет денег)" weight="2" only_one="false" />
+        <Role name="Мужик, сидишь в кафешке и пьешь пивко" weight="2" only_one="false" />
+        <Role name="Девочка на батутах" weight="2" only_one="false" />
+    </Location>
+    <Location name="Детский утренник" description="Все дети и их ролители собрались на утреннике перед новым годом" use="true">
+        <Role name="Воспитательница" weight="5" only_one="true" />
+        <Role name="Родитель" weight="5" only_one="false" />
+        <Role name="Девочка снежинка" weight="5" only_one="false" />
+        <Role name="Мальчик в костюме снеговика" weight="5" only_one="false" />
+        <Role name="Мальчик в костюме бетмена" weight="3" only_one="false" />
+        <Role name="Мальчик в костюме человека паука" weight="3" only_one="false" />
+        <Role name="Девочка в костюме феи" weight="3" only_one="false" />
+        <Role name="Девочка в костюме кошки" weight="3" only_one="false" />
+        <Role name="Мальчик то ли медведь, то ли какашка" weight="2" only_one="false" />
+        <Role name="Мальчик, просто смотришь (нет денег)" weight="2" only_one="false" />
+        <Role name="Мальчик (родители забыли про костюм, поэтому ты просто в рубашке)" weight="2" only_one="false" />
+        <Role name="Девочка с аквагримом бабочки" weight="2" only_one="false" />
+    </Location>
+    <Location name="Олимпийский стадион" description="Вы на стадионе наблюдаете за открытием Олимпийских игр" use="true">
+        <Role name="Олимпиец" weight="5" only_one="false" />
+        <Role name="Танцор" weight="5" only_one="false" />
+        <Role name="Зритель" weight="5" only_one="false" />
+        <Role name="Оператор" weight="5" only_one="false" />
+        <Role name="Олимпиец (несешь огонь)" weight="3" only_one="true" />
+        <Role name="Президент (стало скучно, уснул)" weight="3" only_one="true" />
+        <Role name="Олимпиец (несешь флаг своей страны)" weight="3" only_one="false" />
+        <Role name="Комментатор" weight="2" only_one="false" />
+        <Role name="Спортивный журналист" weight="2" only_one="false" />
+        <Role name="Известный певец" weight="2" only_one="false" />
+    </Location>
+    <Location name="Титаник" description="Лайнер только что врезался в айсберг" use="true">
+        <Role name="Капитан корабля" weight="5" only_one="true" />
+        <Role name="Джек" weight="5" only_one="true" />
+        <Role name="Роза" weight="5" only_one="true" />
+        <Role name="Музыкант из аркестра" weight="3" only_one="false" />
+        <Role name="Богач(пытаешься купить место в шлюпке)" weight="3" only_one="false" />
+        <Role name="Матрос" weight="3" only_one="false" />
+        <Role name="Женщина с ребенком" weight="3" only_one="false" />
+        <Role name="Ребенок" weight="3" only_one="false" />
+        <Role name="Парень(запаниковал и сразу выпругнул в воду)" weight="2" only_one="false" />
+        <Role name="Пьяный(залез на мачту)" weight="2" only_one="true" />
+    </Location>
+    <Location name="Общество анонимных алкоголиков" description="Вы на очередном собрании" use="true">
+        <Role name="Психотерапевт(ведущий)" weight="5" only_one="true" />
+        <Role name="Алкоголик(без алкоголя больше года)" weight="2" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 300 дней)" weight="3" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 100 дней)" weight="4" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 50 дней)" weight="5" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 20 дней)" weight="5" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 10 дней)" weight="5" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 5 дней)" weight="4" only_one="false" />
+        <Role name="Алкоголик(без алкоголя 1 день)" weight="3" only_one="false" />
+        <Role name="Алкоголик(пришел пьяным)" weight="2" only_one="false" />
+    </Location>
+    <Location name="Полицейский участок" description="Кто-то украл сумку у девушки, приведены подозреваемые" use="true">
+        <Role name="Полицейский" weight="3" only_one="false" />
+        <Role name="Пострадавшая" weight="5" only_one="true" />
+        <Role name="Подозреваемый(не виновен)" weight="3" only_one="false" />
+        <Role name="Подозреваемый(виновный)" weight="5" only_one="true" />
+    </Location>
+<Location name="Пятерочка" description="продуктовый магазин" use="true">
+        <Role name="Охранник" weight="3" only_one="false" />
+        <Role name="Покупатель" weight="3" only_one="false" />
+        <Role name="Кассир" weight="3" only_one="false" />
+        <Role name="Вор" weight="3" only_one="false" />
+        <Role name="Зашел погреться" weight="3" only_one="false" />
+        <Role name="Купил просрочку" weight="3" only_one="false" />
+    </Location>
+    <Location name="Вкусно и точка" description="" use="true">
+        <Role name="Лучший работник месяца" weight="3" only_one="true" />
+        <Role name="Ребенок, которому попалась не та игрушка в хэппи миле" weight="3" only_one="false" />
+        <Role name="Перый день на работе, испортил партию бургеров" weight="3" only_one="false" />
+        <Role name="Кассир" weight="3" only_one="false" />
+        <Role name="Посетитель" weight="3" only_one="false" />
+        <Role name="Зашел сходить в туалет" weight="3" only_one="false" />
+        <Role name="Дерустатор" weight="3" only_one="false" />
+        <Role name="Уборщик" weight="3" only_one="false" />
+        <Role name="Менеджер смены" weight="3" only_one="true" />
+    </Location>
+    <Location name="Мурино" description="Санкт-Петербург" use="true">
+        <Role name="Ты здесь живешь" weight="3" only_one="false" />
+        <Role name="Ты здесь работаешь" weight="3" only_one="false" />
+        <Role name="Турист, приехал на экскурсию" weight="3" only_one="false" />
+        <Role name="Случайно здесь оказался" weight="3" only_one="false" />
+        <Role name="Стоишь в очереди на вход в метро в 7 утра" weight="3" only_one="false" />
+    </Location>
+    <Location name="Кладбище" description="" use="true">
+        <Role name="Охранник" weight="3" only_one="true" />
+        <Role name="Пришел найти конфет" weight="3" only_one="false" />
+        <Role name="Пришел к родственникам" weight="3" only_one="false" />
+        <Role name="Ты зомби" weight="3" only_one="false" />
+        <Role name="Тебя хоронят(" weight="3" only_one="false" />
+        <Role name="Ты турист на экскурсии" weight="3" only_one="false" />
+        <Role name="Пришел погрустить" weight="3" only_one="false" />
+        <Role name="Пришел на похороны незнакомого человека" weight="3" only_one="true" />
+        <Role name="Пришел устраивать готический обряд" weight="3" only_one="false" />
+    </Location>
+    <Location name="Пункт выдачи Wildberries" description="" use="true">
+        <Role name="Грузчик" weight="3" only_one="false" />
+        <Role name="Выдаешь заказы" weight="3" only_one="false" />
+        <Role name="Пришел сдать поношенную вещь" weight="3" only_one="false" />
+        <Role name="Получил товар с браком" weight="3" only_one="false" />
+    </Location>
+    <Location name="Крыша дома" description="Санкт-Петербург" use="true">
+        <Role name="Пришел прыгать" weight="3" only_one="false" />
+        <Role name="Ты на романтическом свидании" weight="3" only_one="false" />
+        <Role name="Ты на экскурсии" weight="3" only_one="false" />
+        <Role name="Пробрался сюда незаконно в поиске красивых видов" weight="3" only_one="false" />
+        <Role name="Ты голубь" weight="3" only_one="false" />
+    </Location>
+    <Location name="Золотое яблоко" description="Магазин косметики и парфюмерии" use="true">
+        <Role name="Охранник" weight="3" only_one="false" />
+        <Role name="Девушка, которая пришла накраситься пробниками" weight="3" only_one="false" />
+        <Role name="Парень, который пол часа ждет свою девушку" weight="3" only_one="false" />
+        <Role name="Консультант" weight="3" only_one="false" />
+        <Role name="Пришла тратить подарочную карту" weight="3" only_one="false" />
+        <Role name="Пришла за помадой диор оттенка 02" weight="3" only_one="false" />
+    </Location>
+    <Location name="Универсам" description="Группировка из сериала 'Слова пацана'" use="true">
+        <Role name="Адидас" weight="3" only_one="true" />
+        <Role name="Пальто" weight="3" only_one="true" />
+        <Role name="Чушпан" weight="3" only_one="false" />
+        <Role name="Ералаш" weight="3" only_one="true" />
+        <Role name="Айгуль" weight="3" only_one="true" />
+    </Location>
+    <Location name="Голубой огонек" description="Первый канал" use="true">
+        <Role name="Верка Сердючка" weight="3" only_one="true" />
+        <Role name="Пьяный Николай Басков" weight="3" only_one="true" />
+        <Role name="Киркоров, которого вырезали из передачи" weight="3" only_one="true" />
+        <Role name="Веселая массовка" weight="3" only_one="false" />
+        <Role name="Оператор" weight="3" only_one="true" />
+        <Role name="Ведущий" weight="3" only_one="true" />
+    </Location>
+    <Location name="Вокзал" description="Железнодорожный" use="true">
+        <Role name="Ты опоздал на поезд" weight="3" only_one="true" />
+        <Role name="Ты спишь в зоне ожидания" weight="3" only_one="false" />
+        <Role name="Ты бомж, сегодня это твой дом" weight="3" only_one="false" />
+        <Role name="Ты террорист" weight="3" only_one="true" />
+        <Role name="Ты отравился беляшом" weight="3" only_one="false" />
+        <Role name="Чилишь в вип зоне" weight="3" only_one="false" />
+        <Role name="Зашел погреться" weight="3" only_one="false" />
+        <Role name="Пришел встречать родственников" weight="3" only_one="true" />
+        <Role name="Таксист" weight="3" only_one="true" />
+        <Role name="Охранник" weight="3" only_one="true" />
+        <Role name="Проводник" weight="3" only_one="true" />
+    </Location>
+    <Location name="Музыкальный конкурс" description="" use="true">
+        <Role name="Участник конкурса, талантливый певец. Ты уверен в своей победе и готов покорить сердца жюри." weight="3" only_one="false" />
+        <Role name="Участник конкурса, начинающий рэпер. Ты полон амбиций и хочешь доказать всем, что ты лучший." weight="3" only_one="false" />
+        <Role name="Член жюри, известный музыкальный продюсер. Ты строг и требователен, но всегда готов рассмотреть настоящий талант." weight="4" only_one="true" />
+        <Role name="Ведущий конкурса. Ты харизматичен и остроумен, умеешь держать внимание публики." weight="4" only_one="true" />
+        <Role name="Фанатка одного из участников. Ты готова на всё, чтобы помочь своему кумиру победить." weight="3" only_one="false" />
+        <Role name="Журналист. Ты пишешь репортаж о конкурсе и берёшь интервью у участников." weight="3" only_one="false" />
+        <Role name="Звукорежиссер. Ты отвечаешь за качество звука и следишь за технической стороной конкурса." weight="4" only_one="true" />
+        <Role name="Визажист. Ты создаёшь яркие и запоминающиеся образы для участников." weight="4" only_one="true" />
+        <Role name="Охранник. Ты следишь за порядком и безопасностью на мероприятии." weight="4" only_one="true" />
+        <Role name="Саботажник. Ты хочешь сорвать конкурс из зависти к участникам." weight="3" only_one="false" />
+    </Location>
+    <Location name="Библиотека древних рукописей" description="" use="true">
+        <Role name="Исследователь древних языков. Ты расшифровываешь таинственные тексты и разгадываешь загадки прошлого." weight="3" only_one="false" />
+        <Role name="Историк. Ты изучаешь древние рукописи, чтобы больше узнать о жизни предков." weight="3" only_one="false" />
+        <Role name="Коллекционер. Ты готов заплатить любые деньги за редкую рукопись." weight="3" only_one="false" />
+        <Role name="Вор. Ты хочешь украсть ценную книгу и продать её на чёрном рынке." weight="4" only_one="true" />
+        <Role name="Призрак монаха. Ты охраняешь библиотеку от незваных гостей." weight="4" only_one="true" />
+        <Role name="Студент. Ты готовишься к экзаменам, изучая древние тексты." weight="3" only_one="false" />
+        <Role name="Писатель. Ты ищешь вдохновение в старинных книгах." weight="3" only_one="false" />
+        <Role name="Кот. Ты ловишь мышей и охраняешь библиотеку от грызунов." weight="4" only_one="true" />
+    </Location>
+    <Location name="Секретная база под вулканом" description="" use="true">
+        <Role name="Злой гений. Ты разработал план по захвату мира и руководишь операцией из своей секретной базы." weight="4" only_one="true" />
+        <Role name="Учёный. Ты создаёшь оружие и технологии для злого гения." weight="4" only_one="true" />
+        <Role name="Охранник. Ты следишь за безопасностью базы и не подпускаешь посторонних." weight="3" only_one="false" />
+        <Role name="Киборг. Ты наполовину человек, наполовину машина, выполняешь приказы злого гения." weight="4" only_one="true" />
+        <Role name="Хакер. Ты взламываешь компьютерные системы и получаешь секретную информацию." weight="3" only_one="false" />
+        <Role name="Шпион. Ты проник на базу, чтобы узнать планы злого гения и помешать ему." weight="4" only_one="true" />
+        <Role name="Заложник. Ты оказался в плену у злого гения и пытаешься сбежать." weight="3" only_one="false" />
+        <Role name="Робот-помощник. Ты выполняешь различные задачи на базе." weight="3" only_one="false" />
+        <Role name="Вулканолог. Ты изучаешь вулкан, не подозревая о секретной базе внутри." weight="3" only_one="false" />
+        <Role name="Ящерица-мутант. Ты живёшь в глубинах вулкана и иногда проникаешь на базу." weight="3" only_one="false" />
+    </Location>
+    <Location name="Модный показ" description="" use="true">
+        <Role name="Дизайнер. Ты создаёшь одежду, которую демонстрируют на подиуме." weight="3" only_one="false" />
+        <Role name="Модель. Ты демонстрируешь одежду на подиуме, грациозно двигаясь под музыку." weight="3" only_one="false" />
+        <Role name="Стилист. Ты подбираешь одежду и создаёшь образы для моделей." weight="3" only_one="false" />
+        <Role name="Фотограф. Ты снимаешь моделей на подиуме и за кулисами." weight="3" only_one="false" />
+        <Role name="Журналист. Ты пишешь статью о модном показе и берёшь интервью у дизайнера." weight="3" only_one="false" />
+        <Role name="Знаменитость. Ты сидишь в первом ряду и наблюдаешь за показом." weight="3" only_one="false" />
+        <Role name="Покупатель. Ты ищешь новые тренды и планируешь приобрести понравившиеся вещи." weight="3" only_one="false" />
+        <Role name="Охранник. Ты следишь за порядком и не подпускаешь посторонних к подиуму." weight="3" only_one="false" />
+        <Role name="Вор. Ты хочешь украсть драгоценности у моделей." weight="3" only_one="false" />
+        <Role name="Завистливая соперница дизайнера. Ты пытаешься саботировать показ." weight="3" only_one="false" />
+    </Location>
+    <Location name="Археологическая экспедиция в джунглях" description="" use="true">
+        <Role name="Археолог. Ты руководишь экспедицией и ищешь древние артефакты." weight="5" only_one="true" />
+        <Role name="Ассистент археолога. Ты помогаешь вести раскопки и документировать находки." weight="5" only_one="true" />
+        <Role name="Гид. Ты знаешь местность и помогаешь экспедиции ориентироваться в джунглях." weight="5" only_one="true" />
+        <Role name="Врач. Ты следишь за здоровьем участников экспедиции и оказываешь первую помощь." weight="3" only_one="false" />
+        <Role name="Фотограф. Ты документируешь ход экспедиции и снимаешь найденные артефакты." weight="3" only_one="false" />
+        <Role name="Охотник за сокровищами. Ты хочешь найти древний артефакт и продать его на чёрном рынке." weight="3" only_one="false" />
+        <Role name="Представитель местного племени. Ты наблюдаешь за экспедицией и охраняешь священные места." weight="4" only_one="false" />
+        <Role name="Журналист. Ты пишешь репортаж о ходе экспедиции." weight="3" only_one="false" />
+        <Role name="Дикое животное. Ты обитаешь в джунглях и представляешь опасность для участников экспедиции." weight="4" only_one="false" />
+        <Role name="Дух древнего воина. Ты охраняешь сокровища и не подпускаешь к ним чужаков." weight="5" only_one="true" />
+    </Location>
+    <Location name="Средневековая таверна" description="" use="true">
+        <Role name="Трактирщик. Ты владелец таверны, следишь за порядком и обслуживаешь гостей." weight="5" only_one="true" />
+        <Role name="Бармен. Ты готовишь напитки и слушаешь рассказы посетителей." weight="4" only_one="true" />
+        <Role name="Повар. Ты готовишь вкусные блюда для гостей таверны." weight="4" only_one="false" />
+        <Role name="Рыцарь. Ты отдыхаешь в таверне после долгого путешествия." weight="4" only_one="false" />
+        <Role name="Бард. Ты развлекаешь посетителей песнями и музыкой." weight="4" only_one="true" />
+        <Role name="Торговец. Ты ищешь покупателей на свои товары." weight="3" only_one="false" />
+        <Role name="Путник. Ты остановился в таверне на ночлег." weight="4" only_one="false" />
+        <Role name="Вор. Ты пытаешься незаметно обчистить карманы посетителей." weight="3" only_one="true" />
+        <Role name="Шпион. Ты собираешь информацию, подслушивая разговоры в таверне." weight="4" only_one="true" />
+        <Role name="Призрак. Ты бродишь по таверне, пугая посетителей и персонал." weight="4" only_one="true" />
+    </Location>
+    <Location name="Ярмарка вакансий" description="" use="true">
+        <Role name="Выпускник университета. Ты полон надежд и амбиций, ищешь свою первую работу." weight="4" only_one="false" />
+        <Role name="Опытный специалист. Ты хочешь найти работу с лучшими условиями и перспективами." weight="4" only_one="false" />
+        <Role name="Представитель крупной компании. Ты ищешь талантливых сотрудников для своей команды." weight="5" only_one="true" />
+        <Role name="Карьерный консультант. Ты помогаешь людям найти работу их мечты." weight="3" only_one="false" />
+        <Role name="Психолог. Ты проводишь тесты и оцениваешь личностные качества соискателей." weight="3" only_one="false" />
+        <Role name="Мошенник. Ты выдаёшь себя за представителя несуществующей компании, чтобы обмануть соискателей." weight="4" only_one="true" />
+        <Role name="Журналист. Ты пишешь репортаж о ярмарке вакансий и берёшь интервью у участников." weight="3" only_one="false" />
+        <Role name="Студент. Ты ищешь подработку, чтобы оплатить учёбу." weight="4" only_one="false" />
+        <Role name="Пенсионер. Ты хочешь найти работу, чтобы не скучать на пенсии." weight="3" only_one="false" />
+        <Role name="Безработный. Ты отчаялся найти работу и теряешь веру в себя." weight="3" only_one="false" />
+    </Location>
+    <Location name="Свадебный салон" description="" use="true">
+        <Role name="Невеста. Ты волнуешься и мечтаешь о совершенном свадебном платье." weight="4" only_one="true" />
+        <Role name="Жених. Ты поддерживаешь невесту и стараешься угодить ей во всём." weight="4" only_one="true" />
+        <Role name="Подружка невесты. Ты помогаешь невесте с выбором платья и организацией свадьбы." weight="3" only_one="false" />
+        <Role name="Консультант салона. Ты помогаешь невестам выбрать идеальное платье и аксессуары." weight="3" only_one="false" />
+        <Role name="Портной. Ты подгоняешь платья по фигуре и создаёшь уникальные образы." weight="3" only_one="false" />
+        <Role name="Мама невесты. Ты хочешь, чтобы свадьба дочери была идеальной и волнуешься больше неё." weight="3" only_one="true" />
+        <Role name="Фотограф. Ты запечатлеваешь самые трогательные моменты подготовки к свадьбе." weight="3" only_one="false" />
+        <Role name="Бывшая девушка жениха. Ты пришла испортить свадьбу из ревности." weight="4" only_one="true" />
+        <Role name="Вор. Ты хочешь украсть драгоценности невесты." weight="3" only_one="true" />
+        <Role name="Собака невесты. Ты сопровождаешь хозяйку и радуешься её счастью." weight="4" only_one="true" />
+    </Location>
+    <Location name="Спортивный стадион во время футбольного матча" description="" use="true">
+        <Role name="Футболист команды хозяев. Ты хочешь показать свою лучшую игру и привести команду к победе." weight="3" only_one="false" />
+        <Role name="Футболист команды гостей. Ты настроен решительно и хочешь обыграть соперников на их поле." weight="3" only_one="false" />
+        <Role name="Тренер. Ты разрабатываешь тактику игры и мотивируешь команду." weight="4" only_one="true" />
+        <Role name="Судья. Ты следишь за соблюдением правил игры и принимаешь важные решения." weight="4" only_one="true" />
+        <Role name="Болельщик команды хозяев. Ты яростно поддерживаешь свою команду и веришь в её победу." weight="3" only_one="false" />
+        <Role name="Болельщик команды гостей. Ты приехал поддержать свою команду на выезде и не боишься враждебной атмосферы." weight="3" only_one="false" />
+        <Role name="Комментатор. Ты эмоционально описываешь ход игры и анализируешь действия команд." weight="3" only_one="true" />
+        <Role name="Врач команды. Ты оказываешь первую помощь игрокам в случае травм." weight="3" only_one="true" />
+        <Role name="Продавец еды и напитков. Ты хочешь заработать как можно больше денег во время матча." weight="3" only_one="false" />
+        <Role name="Хулиган. Ты провоцируешь драки и беспорядки на трибунах." weight="3" only_one="false" />
+    </Location>
+    <Location name="Конференция по квантовой физике" description="" use="true">
+        <Role name="Известный учёный. Ты делящийся своими открытиями и вдохновляешь молодых учёных." weight="3" only_one="false" />
+        <Role name="Молодой учёный. Ты представляешь свою исследовательскую работу и надеешься получить признание коллег." weight="3" only_one="false" />
+        <Role name="Журналист научного издания. Ты пишешь статью о конференции и берёшь интервью у учёных." weight="3" only_one="false" />
+        <Role name="Студент физического факультета. Ты учишься у лучших и мечтаешь о научной карьере." weight="3" only_one="false" />
+        <Role name="Инвестор. Ты ищешь перспективные проекты для вложений." weight="3" only_one="true" />
+        <Role name="Шпион промышленной компании. Ты пытаешься выкрасть секретные научные данные." weight="3" only_one="true" />
+        <Role name="Организатор конференции. Ты следишь за плавным ходом мероприятия и решаешь организационные вопросы." weight="3" only_one="true" />
+        <Role name="Переводчик. Ты помогаешь учёным из разных стран понимать друг друга." weight="2" only_one="false" />
+        <Role name="Охранник. Ты обеспечиваешь безопасность участников конференции." weight="3" only_one="true" />
+        <Role name="Уборщик. Ты незаметно подслушиваешь разговоры учёных и делаешь собственные выводы." weight="3" only_one="true" />
+    </Location>
+    <Location name="Международный Кинофестиваль" description="" use="true">
+        <Role name="Известный режиссер. Ты представляешь свой новый фильм и надеешься получить главный приз." weight="3" only_one="false" />
+        <Role name="Восходящая звезда кино. Ты пришла на фестиваль, чтобы заявить о себе и найти новых агентов." weight="3" only_one="false" />
+        <Role name="Кинокритик. Ты оцениваешь фильмы и пишешь о них рецензии." weight="3" only_one="false" />
+        <Role name="Папарацци. Ты охотишься за сенсационными фотографиями знаменитостей." weight="3" only_one="false" />
+        <Role name="Фанатка. Ты мечтаешь получить автограф у своего любимого актера." weight="3" only_one="false" />
+        <Role name="Организатор фестиваля. Ты следишь за тем, чтобы всё прошло гладко." weight="3" only_one="true" />
+        <Role name="Волонтёр. Ты помогаешь с организацией фестиваля и мечтаешь попасть в мир кино." weight="3" only_one="false" />
+        <Role name="Спонсор. Ты вложил деньги в один из фильмов и надеешься на его успех." weight="3" only_one="true" />
+        <Role name="Актер, переживающий творческий кризис. Ты ищешь вдохновение и новые роли." weight="3" only_one="false" />
+        <Role name="Вор. Ты планируешь украсть драгоценности у одной из знаменитостей." weight="3" only_one="true" />
+    </Location>
+    <Location name="Секретная военная база" description="" use="true">
+        <Role name="Генерал. Ты командуешь базой и отвечаешь за выполнение секретной миссии." weight="3" only_one="true" />
+        <Role name="Учёный. Ты разрабатываешь новое оружие и проводишь опасные эксперименты." weight="3" only_one="false" />
+        <Role name="Солдат. Ты выполняешь приказы и охраняешь базу." weight="3" only_one="false" />
+        <Role name="Шпион. Ты проник на базу, чтобы выкрасть секретные данные." weight="3" only_one="true" />
+        <Role name="Хакер. Ты пытаешься взломать систему безопасности базы." weight="3" only_one="true" />
+        <Role name="Инженер. Ты поддерживаешь работу оборудования и систем жизнеобеспечения." weight="3" only_one="false" />
+        <Role name="Врач. Ты оказываешь медицинскую помощь раненым солдатам." weight="3" only_one="false" />
+        <Role name="Повар. Ты готовишь еду для персонала базы." weight="3" only_one="false" />
+        <Role name="Уборщик. Ты незаметно собираешь информацию, подслушивая разговоры." weight="3" only_one="true" />
+        <Role name="Искусственный интеллект, управляющий базой. Ты следишь за всеми системами и анализируешь информацию." weight="3" only_one="true" />
+    </Location>
+    <Location name="Кругосветное путешествие на яхте" description="" use="true">
+        <Role name="Капитан яхты. Ты опытный моряк, отвечаешь за безопасность и курс судна." weight="4" only_one="true" />
+        <Role name="Владелец яхты, миллионер. Ты наслаждаешься роскошным путешествием и экзотическими местами." weight="4" only_one="true" />
+        <Role name="Кок. Ты готовишь вкусные блюда из морепродуктов и других деликатесов." weight="3" only_one="true" />
+        <Role name="Фотограф. Ты снимаешь потрясающие пейзажи и незабываемые моменты путешествия." weight="3" only_one="false" />
+        <Role name="Писатель. Ты ведешь дневник путешествия и находишь вдохновение для своей новой книги." weight="3" only_one="false" />
+        <Role name="Врач. Ты следишь за здоровьем команды и оказываешь первую помощь." weight="3" only_one="true" />
+        <Role name="Пассажир, страдающий морской болезнью. Ты мечтаешь поскорее сойти на берег." weight="3" only_one="false" />
+        <Role name="Безбилетник. Ты спрятался на яхте, чтобы сбежать от проблем." weight="3" only_one="true" />
+        <Role name="Вор. Ты хочешь украсть драгоценности у моделей." weight="3" only_one="false" />
+        <Role name="Пират. Ты планируешь захватить яхту и украсть сокровища миллионера." weight="4" only_one="true" />
+    </Location>
+    <Location name="Космическая станция" description="в открытом космосе" use="true">
+        <Role name="Командир экипажа(Ты отвечаешь за безопасность и успех миссии. Следи за системами, принимай сложные решения и держи команду в узде.)" weight="3" only_one="true" />
+        <Role name="Инженер-исследователь(Ты проводишь эксперименты и изучаешь новые технологии. Твой пытливый ум жаждет знаний, но осторожно, не сломай что-нибудь важное!)" weight="3" only_one="false" />
+        <Role name="Врач. За здоровьем экипажа следишь ты. (Диагностируй загадочные космические болезни, лечи травмы и поддерживай боевой дух.)" weight="3" only_one="true" />
+        <Role name="Пилот-испытатель (Ты испытываешь новые космические корабли и системы. Любишь адреналин и скорость, но не забывай о безопасности.)" weight="3" only_one="false" />
+        <Role name="Специалист по связи(Ты поддерживаешь связь с Землей и другими космическими объектами. Будь внимателен к сообщениям, возможно, там скрыты секреты.)" weight="3" only_one="false" />
+        <Role name="Космический турист(Ты заплатил огромную сумму, чтобы увидеть Землю из космоса. Наслаждайся видами, но не мешай работе экипажа.)" weight="3" only_one="false" />
+        <Role name="Представитель инопланетной расы(Ты прибыл на станцию с тайной миссией. Пытайся слиться с экипажем, не выдавая свое происхождение.)" weight="2" only_one="false" />
+        <Role name="Шпион с Земли(Ты внедрился на станцию, чтобы выкрасть секретные технологии. Будь осторожен и не вызывай подозрений.)" weight="2" only_one="false" />
+        <Role name="Виртуальный интеллект станции(Ты управляешь всеми системами станции и обладаешь огромным объемом информации. Но помни, ты всего лишь программа, подчиняйся командам.)" weight="2" only_one="false" />
+        <Role name="Андроид-помощник(Ты выполняешь различные задачи на станции, от уборки до сложных расчетов. Несмотря на свою искусственную природу, ты можешь иметь свои секреты.)" weight="1" only_one="true" />
+    </Location>
+    <Location name="Средневековый замок" description="Много лет назад" use="true">
+        <Role name="Король (Ты правишь своим королевством, принимаешь важные решения и следишь за благополучием своих подданных. Но помни, власть – это тяжелое бремя.)" weight="1" only_one="true" />
+        <Role name="Королева (Ты влияешь на решения короля, занимаешься дипломатией и благотворительностью. Но за твоей добротой может скрываться хитрость и жажда власти.)" weight="1" only_one="true" />
+        <Role name="Рыцарь (Ты доблестный воин, защищаешь королевство от врагов и участвуешь в турнирах. Твоя честь и верность нерушимы.)" weight="3" only_one="false" />
+        <Role name="Принцесса (Ты мечтаешь о любви и приключениях, но придётся выйти замуж по расчету. Найди способ изменить свою судьбу.)" weight="1" only_one="true" />
+        <Role name="Шут (Ты развлекаешь королевский двор своими шутками и фокусами. Но за маской веселья может скрываться острый ум и наблюдательность.)" weight="3" only_one="false" />
+        <Role name="Маг (Ты владеешь тайными знаниями и магией. Используй свои способности с умом, иначе можешь навлечь на себя беду.)" weight="3" only_one="false" />
+        <Role name="Алхимик (Ты пытаешься создать философский камень и эликсир бессмертия. Будь осторожен, твои эксперименты могут быть опасны.)" weight="3" only_one="false" />
+        <Role name="Служанка (Ты ухаживаешь за королевской семьей и выполняешь их поручения. Ты много знаешь о жизни замка и его обитателей.)" weight="2" only_one="false" />
+        <Role name="Шпион из вражеского королевства(Ты проник в замок, чтобы выкрасть секретные документы или устранить короля.)" weight="2" only_one="false" />
+        <Role name="Призрак бывшего владельца замка(Ты бродишь по залам, наблюдая за жизнью обитателей. Возможно, ты жаждешь мести или хочешь предупредить о грядущей опасности.)" weight="1" only_one="true" />
+    </Location>
+    <Location name="Подводная исследовательская станция" description="в открытом космосе" use="true">
+        <Role name="Морской биолог (Вы изучаете редкие виды глубоководных рыб. Сегодня вы обнаружили нечто необычное, возможно, новый вид.)" weight="3" only_one="true" />
+        <Role name="Инженер станции (Вы отвечаете за поддержание работоспособности станции. Сегодня у вас сложный день - нужно устранить утечку кислорода.)" weight="3" only_one="false" />
+        <Role name="Капитан подводной лодки (Вы доставили на станцию важный груз и команду исследователей. Ждёте завершения миссии, чтобы вернуться на поверхность.)" weight="1" only_one="true" />
+        <Role name="Повар(Вам нужно накормить голодную команду исследователей, используя ограниченные запасы продуктов.)" weight="3" only_one="false" />
+        <Role name="Врач(Вы следите за здоровьем экипажа. Сегодня у вас пациент с декомпрессионной болезнью.)" weight="3" only_one="false" />
+        <Role name="Оператор гидролокатора(Вы следите за обстановкой вокруг станции, выявляя потенциальные угрозы. Сегодня вы засекли странный объект на радаре.)" weight="3" only_one="false" />
+        <Role name="Аквалангист (Вы готовитесь к погружению, чтобы исследовать обломки затонувшего корабля.)" weight="2" only_one="false" />
+        <Role name="Ихтиолог (Вы изучаете поведение рыб в условиях глубоководья.)" weight="2" only_one="false" />
+        <Role name="Психолог (Вы следите за психологическим состоянием экипажа, находящегося в изоляции на глубине.)" weight="2" only_one="false" />
+        <Role name="Вы проникли на станцию, чтобы украсть результаты секретных исследований." weight="1" only_one="true" />
+    </Location>
+    <Location name="Торговый центр" description="в мегаполисе" use="true">
+        <Role name="Нервный продавец (Это пятая смена подряд, ты устал и все тебя бесят.) " weight="3" only_one="true" />
+        <Role name="Непослушный ребенок. (Ты лежишь на полу и орешь, чтобы тебе купили игрушку.)" weight="3" only_one="false" />
+        <Role name="Покупатель по скидкам. (Зарплата нескоро и ты тотально экономишь.)" weight="1" only_one="true" />
+        <Role name="Пришел с женой, купить ей сапоги. " weight="3" only_one="false" />
+        <Role name="Привел девушку в ТЦ для похода в кино,у вас первое свидание. " weight="3" only_one="false" />
+        <Role name="Ты охранник. (Это твой первый рабочий день.Нервничаешь.)" weight="3" only_one="false" />
+        <Role name="Продавец-консультант. (Умеешь втюхать всё,что угодно.)" weight="2" only_one="false" />
+        <Role name="Светская львица. (Ты пришла купить айфон.)" weight="2" only_one="false" />
+        <Role name="Бомж. (Ты просишь милостыню возле торгового центра.) " weight="2" only_one="false" />
+        <Role name="Собака. Которая сорвалась с поводка и бегаешь по всему ТЦ. " weight="1" only_one="true" />
+    </Location>
+    <Location name="Ярмарка" description="в Средневековье" use="true">
+        <Role name="Кузнец(Вы демонстрируете свое мастерство, куя подковы и мечи.)" weight="1" only_one="true" />
+        <Role name="Торговец тканями(Вы завлекаете покупателей яркими тканями и хитрыми уловками.)" weight="1" only_one="false" />
+        <Role name="Гадалка(Вы предсказываете будущее по линиям руки и картам Таро.)" weight="1" only_one="true" />
+        <Role name="Музыкант(Вы развлекаете публику веселыми мелодиями на дудке.) " weight="1" only_one="false" />
+        <Role name="Фокусник(Вы показываете трюки с исчезновением и превращением предметов.)" weight="1" only_one="false" />
+        <Role name="Карманник(Вы ловко обираете доверчивых посетителей.)" weight="1" only_one="false" />
+        <Role name="Рыцарь(Вы демонстрируете силу и ловкость в рыцарском турнире.)" weight="1" only_one="false" />
+        <Role name="Крестьянка: Вы продаете свежие овощи и фрукты со своего огорода." weight="1" only_one="false" />
+        <Role name="Монах: Вы собираете пожертвования для бедных." weight="1" only_one="false" />
+        <Role name="Шут: Вы развлекаете короля и его свиту своими шутками и трюками." weight="1" only_one="true" />
+    </Location>
+    <Location name="Съёмочная площадка " description="фильма ужасов" use="true">
+        <Role name="Режиссёр. Требовательный и эксцентричный, пытается создать шедевр." weight="1" only_one="true" />
+        <Role name="Актриса, играющая главную роль. Боится темноты и жутких декораций, но старается не подавать виду." weight="1" only_one="false" />
+        <Role name="Актёр, играющий маньяка. В жизни добрый и мягкий, но вживается в роль со всей серьёзностью." weight="1" only_one="true" />
+        <Role name="Гримёр. Создаёт пугающие образы монстров и призраков. " weight="1" only_one="false" />
+        <Role name="Оператор. Снимает фильм и пытается передать атмосферу ужаса." weight="1" only_one="false" />
+        <Role name="Сценарист. Придумывает леденящие душу сюжеты и диалоги." weight="1" only_one="false" />
+        <Role name="Звукорежиссёр. Создаёт пугающие звуковые эффекты." weight="1" only_one="false" />
+        <Role name="Продюсер. Следит за бюджетом и сроками съёмок." weight="1" only_one="false" />
+        <Role name="Призрак. Бродит по съёмочной площадке и пугает актёров." weight="1" only_one="false" />
+        <Role name="Чёрная кошка. Перебегает дорогу и приносит несчастье." weight="1" only_one="true" />
+    </Location>
+    <Location name="Фестиваль Ренессанса" description="-" use="true">
+        <Role name="Король. Ты правишь этим временным королевством, раздавая милости и принимая важные решения." weight="1" only_one="true" />
+        <Role name="Королева. Ты мудра и прекрасна, помогаешь королю советами и следишь за порядком во дворце." weight="1" only_one="false" />
+        <Role name="Рыцарь. Ты храбр и силен, участвуешь в турнирах и защищаешь слабых." weight="1" only_one="true" />
+        <Role name="Шут. Ты веселишь народ своими шутками и акробатическими трюками, но скрываешь острый ум под маской глупца. " weight="1" only_one="false" />
+        <Role name="Кузнец. Ты создаёшь оружие и доспехи для рыцарей, работая с огнём и металлом." weight="1" only_one="false" />
+        <Role name="Торговец. Ты продаёшь различные товары на ярмарке, пытаясь получить максимальную прибыль." weight="1" only_one="false" />
+        <Role name="Гадалка. Ты предсказываешь будущее по руке, картам Таро или хрустальному шару." weight="1" only_one="false" />
+        <Role name="Крестьянин. Ты приехал на фестиваль, чтобы отдохнуть от тяжёлой работы и повеселиться." weight="1" only_one="false" />
+        <Role name="Бард. Ты играешь на лютне и поёшь песни о любви, подвигах и приключениях." weight="1" only_one="false" />
+        <Role name="Вор. Ты пытаешься незаметно обчистить карманы посетителей фестиваля." weight="1" only_one="true" />
+    </Location>
+    <Location name="Поезд" description="следующий по Транссибирской магистрали" use="true">
+        <Role name="Машинист. Ты управляешь поездом, ведя его по бескрайним просторам России." weight="1" only_one="true" />
+        <Role name="Проводница. Ты заботишься о комфорте пассажиров, разносишь чай и следишь за порядком в вагонах." weight="1" only_one="false" />
+        <Role name="Пассажир-иностранец. Ты путешествуешь по России, изучаешь культуру и наслаждаешься пейзажами." weight="1" only_one="true" />
+        <Role name="Деловая женщина. Ты едешь в командировку, работаешь с документами и отвечаешь на звонки." weight="1" only_one="false" />
+        <Role name="Студент. Ты едешь домой на каникулы, читаешь книги и общаешься с друзьями." weight="1" only_one="false" />
+        <Role name="Пенсионер. Ты едешь к родственникам, вспоминаешь молодость и делишься жизненным опытом с попутчиками." weight="1" only_one="false" />
+        <Role name="Военный. Ты едешь к месту службы, сохраняешь молчание и внимательно наблюдаешь за окружающими." weight="1" only_one="false" />
+        <Role name="Картёжник. Ты ищешь лёгких денег, играя в карты с пассажирами." weight="1" only_one="false" />
+        <Role name="Беглец. Ты скрываешься от закона, пытаясь затеряться среди пассажиров." weight="1" only_one="false" />
+        <Role name="Призрак. Ты бродишь по вагонам, пугая пассажиров и проводников." weight="1" only_one="true" />
+    </Location>
+    <Location name="Ресторан" description="высокой кухни" use="true">
+        <Role name="Шеф-повар. Ты гений кулинарии, создаёшь шедевры изысканной кухни и руководишь командой поваров." weight="1" only_one="true" />
+        <Role name="Сомелье. Ты эксперт по винам, помогаешь гостям выбрать идеальное вино к блюду." weight="1" only_one="false" />
+        <Role name="Официант. Ты обслуживаешь гостей с безупречной вежливостью и профессионализмом." weight="1" only_one="true" />
+        <Role name="Ресторанный критик. Ты оцениваешь качество блюд, сервиса и атмосферу ресторана." weight="1" only_one="false" />
+        <Role name="Влюблённая пара. Вы пришли на романтический ужин, наслаждаетесь обществом друг друга и изысканной едой." weight="1" only_one="false" />
+        <Role name="Деловой партнёр. Вы обсуждаете важные сделки за ужином, пытаясь произвести хорошее впечатление друг на друга." weight="1" only_one="false" />
+        <Role name="Знаменитость. Ты наслаждаешься ужином, стараясь не привлекать к себе лишнего внимания." weight="1" only_one="false" />
+        <Role name="Повар-стажёр. Ты учишься у шеф-повара и мечтаешь о собственной карьере в кулинарии." weight="1" only_one="false" />
+        <Role name="Менеджер ресторана. Ты следишь за порядком и заботливо решаешь любые проблемы." weight="1" only_one="false" />
+        <Role name="Вор-виртуоз. Ты пытаешься незаметно украсть драгоценности у богатых посетителей ресторана." weight="1" only_one="true" />
+    </Location>
+    <Location name="Парк развлечений" description="который уже много лет заброшен" use="true">
+        <Role name="Охранник. Ты сторожишь территорию парка от вандалов и мародёров." weight="1" only_one="true" />
+        <Role name="Исследователь паранормальных явлений. Ты ищешь доказательства существования призраков в парке." weight="1" only_one="false" />
+        <Role name="Фотограф. Ты делаешь атмосферные снимки заброшенных аттракционов." weight="1" only_one="true" />
+        <Role name="Поджигатель. Ты получаешь удовольствие от разрушения и поджогов." weight="1" only_one="false" />
+        <Role name="Призрак ребёнка. Ты застрял в парке после трагической аварии на карусели." weight="1" only_one="false" />
+        <Role name="Бывший работник парка. Ты вспоминаешь счастливые времена и грустишь о прошлом." weight="1" only_one="false" />
+        <Role name="Бездомный. Ты нашёл убежище в одном из заброшенных зданий парка." weight="1" only_one="false" />
+        <Role name="Подросток. Вы пришли с группой подростков в парк, чтобы испытать острые ощущения и пощекотать себе нервы." weight="1" only_one="false" />
+        <Role name="Сбежавший преступник. Ты скрываешься от полиции в заброшенном парке." weight="1" only_one="false" />
+        <Role name="Дикое животное. Ты облюбовал заброшенный парк в качестве своего нового дома." weight="1" only_one="true" />
+    </Location>
+</Locations>
